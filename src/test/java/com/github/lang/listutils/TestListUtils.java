@@ -1,4 +1,4 @@
-package com.hemant.lang.listutils;
+package com.github.lang.listutils;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.testng.annotations.Test;
+
+import com.github.lang.listutils.ListUtils;
 
 public class TestListUtils {
 

@@ -1,6 +1,7 @@
-package com.hemant.lang.listutils;
+package com.github.lang.listutils;
 
 import java.util.List;
+import java.util.Objects;
 
 public class ListUtils {
 
@@ -9,7 +10,7 @@ public class ListUtils {
      */
     public static <E> boolean isAnyNull(List<E> list) {
 
-        return list.parallelStream().anyMatch((e) -> (null == e));
+        return list.stream().anyMatch(Objects::isNull);
     }
 
     /**
@@ -18,7 +19,7 @@ public class ListUtils {
      */
     public static <E> boolean isAllNull(List<E> list) {
 
-        return list.parallelStream().allMatch((e) -> (null == e));
+        return list.stream().allMatch(Objects::isNull);
     }
 
     /**

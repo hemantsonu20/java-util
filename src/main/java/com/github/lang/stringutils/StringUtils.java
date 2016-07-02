@@ -1,4 +1,4 @@
-package com.hemant.lang.stringutils;
+package com.github.lang.stringutils;
 
 public class StringUtils {
 
@@ -19,7 +19,7 @@ public class StringUtils {
 
     public static boolean isNotNull(String string) {
 
-        return !isNull(string);
+        return (null != string);
     }
 
     /**
