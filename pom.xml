@@ -84,12 +84,4 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>tropo-public</id>
-			<name>Uncle Tropos's Public Maven Repo</name>
-			<url>http://maven.tropo.com:8081/nexus/content/groups/public</url>
-		</repository>
-
-	</repositories>
 </project>
